@@ -2,20 +2,20 @@
 #include<stdio.h>
 int main( )
 {   int  per ;
-    printf( "Enter marks in percentage " ) ;
-    scanf( "%d", &per ) ;
+    printf("Enter marks in %") ;
+    scanf("%d", &per ) ;
     if( per >= 60 )
-        printf( "First division ") ;
+        printf("First division") ;
     else
     {
         if( per >= 50 )
-            printf( "Second division" ) ;
+            printf("Second division") ;
         else
         {
             if( per >= 40 )
-                printf( "Third division" ) ;
+                printf("Third division") ;
             else
-                printf( "Fail" ) ;
+                printf("Fail") ;
         }
     }
     return(0);
